@@ -56,6 +56,7 @@ a,
     display: flex;
     justify-content: space-around;
     margin: 24px 0;
+    flex-wrap: wrap;
 }
 
 .one,
@@ -95,11 +96,13 @@ button {
     justify-content: center;
     gap: 52px;
     margin: 48px;
+    flex-wrap: wrap;
 }
 
 .info {
     width: 200px;
     text-align: center;
+
 }
 
 .info img {
@@ -114,7 +117,7 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0 400px;
+    padding: 0 100px;
 }
 
 .quote .text,
@@ -133,14 +136,13 @@ button {
 }
 
 .action {
-    margin: 48px;
-    align-self: center;
+    padding: 24px;
     background: #3882F6;
-    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 52px;
+    flex-wrap: wrap;
 }
 
 .right button {
